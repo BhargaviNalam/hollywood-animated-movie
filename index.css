@@ -1,0 +1,116 @@
+nav{
+    border: 2px solid #222;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(113, 177, 199);
+}
+.a{
+    display: flex;
+}
+nav .logo img{
+    object-fit: contain;
+    width: 150px;
+    height: 150px;
+}
+nav .links{
+    margin: 60px 10px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+nav .a .h h1 {
+    text-shadow: 2px 2px 5px red;
+  }
+  h1{
+    padding: 20px 0px;
+    font-size: 35px;
+  }
+  .main{
+    padding: 10px 0px;
+  }
+  .banner video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .raya {
+    border: 2px solid black;
+    padding: 10px 10px;
+    margin: 10px 0px;
+  }
+  #image{
+    float: left;
+  }
+  .main .raya h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: lighter;
+    color: #222;
+    padding: 0px 0px;
+    text-align: left;
+  }
+  .space{
+    padding: 0px 10px;
+  }
+  .zoo {
+    border: 2px solid black;
+    padding: 10px 10px;
+    margin: 10px 0px;
+  }
+  .main .zoo h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: lighter;
+    color: #222;
+    padding: 0px 10px;
+  }
+  .nemo {
+    border: 2px solid black;
+    padding: 10px 10px;
+    margin: 10px 0px;
+  }
+  .main .nemo h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: lighter;
+    color: #222;
+    padding: 0px 10px;
+  }
+  .moana {
+    border: 2px solid black;
+    padding: 10px 10px;
+    margin: 10px 0px;
+  }
+  .main .moana h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: lighter;
+    color: #222;
+    padding: 0px 10px;
+  }
+  .frozen {
+    border: 2px solid black;
+    padding: 10px 10px;
+    margin: 10px 0px;
+  }
+  .main .frozen h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: lighter;
+    color: #222;
+    padding: 0px 10px;
+  }
