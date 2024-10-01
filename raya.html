@@ -6,24 +6,35 @@
     <title>Raya the last dragon</title>
     <style>
         .a{
-            background-color: bisque;;
+            /* background-color: #837e7e; */
         }
         .a h1{
             font-family: Arial, Helvetica, sans-serif;
             font-weight: 400;
             font-style: normal;
-            text-shadow: 2px 2px 5px rgb(216, 150, 6);
+            color: white;
+            text-shadow: 2px 2px 5px rgb(221, 184, 105);
             text-align: center;
             padding: 10px 0px 0px 0px;
         }
+        nav{
+            background-color: #837e7e;
+            box-sizing: border-box;
+            border: 2px solid rgb(245, 245, 220);
+            display: flex;
+            justify-content: space-between;
+        }
+        .a nav .h1{
+            margin: 15px 2px;
+        }
         .shade{
             border: 2px solid black;
-            filter: brightness(80%);
+            background-image: url("rayabanner.jpeg");
             background-size: cover;
             background-position: center center;
-            width: 98%;
+            width: 99%;
             background-repeat: no-repeat;
-            height: 500px;
+            height: 600px;
             margin: 10px 10px 10px 10px;
        }
        .a .c img{
@@ -60,38 +71,72 @@
        }
        .a .div1{
         display: flex;
+        overflow-y: hidden;
+        overflow-x: scroll; 
+        margin-left: 0.8%;
+       }
+       .div1::-webkit-scrollbar{
+        display: none;
        }
        .a .div1 img{
-        margin: 10px 10px 0px 10px ;
-       }
-       .a .div2{
-        display: flex;
-       }
-       .a .main .div2 h3{
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-style: normal;
-       }
-       .a .main .div2 img{
-        margin: 10px 10px 0px 10px ;
+        margin: 10px 5px 0px 0% ;
+        width: 250px;
+        height: 200px;
        }
        .des{
-        border: 2px solid black;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 400;
-        line-height: 1.4;
+        background-color: #837e7e;
+        border: 2px solid rgb(245, 245, 220);
+       
         margin: 10px 0px;
         padding: 0px 10px;
+       }
+       .des h3{
+        font-family: Arial;
+        font-size: 15px;
+        font-weight: 200;
+        line-height: 1.5;
+       }
+       .pic{
+            padding: 10px 10px;
+       }
+       .pic img{
+        width: 180px;
+       }
+       .nav{
+        display: flex;
+       }
+       .nav h1{
+        padding: 23px 0px 0px 0px;
+       }
+       .ban img{
+        margin: 150px 80px;
+        width: 400px;
+        height: 250px;
        }
        
     </style>
 </head>
 <body>
     <div class="a">
-        <h1> Raya the last dragon</h1>
-        <img src="rayaposter.jpeg" class="shade">
-        <div class="main">
-            <h2>Cast : Raya The last dragon </h2>
+        <nav>
+            <div class="nav">
+            <div class="pic">
+            <img src="rayalogo.png" alt="" style=" border: 1px solid rgb(245, 245, 220);"></img></div>
+        <h1 style="color: rgb(245, 245, 220);"> Animation Movie - Raya the last dragon</h1>
+    </div>
+        <h2><ul style="text-align: right;margin-right: 80px;word-spacing: 30px;">
+            <a href="index.html" style="color: aliceblue;">Home</a>
+            <a href="" style="color: aliceblue;">Shows</a>
+            <a href="" style="color: aliceblue;">Rating</a>
+            </ul></h2>
+        </nav>
+        <div class="shade">
+        <div class="ban">
+        <img src="https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/8843/1428843-t-db7e54dd3e14" alt="">
+        </div> 
+        </div>
+        <div class="main" style="background-color: rgb(245, 245, 220);">
+        <h2>Cast : Raya The last dragon </h2>
         <div class="div1">
         <div class="c">
         <img src="rayapic.jpeg">
@@ -109,8 +154,6 @@
         <img src="rayapic4.jpeg" alt="" >
         <h3>"LITTLE NOI"</h3>
         </div>
-        </div>
-        <div class="div2">
         <div class="e">
             <img src="rayapic3.jpeg" alt="" >
             <h3>"NAMAARI"</h3>
@@ -129,7 +172,7 @@
                         </div>
         </div>
         </div>
-    <div class="des">
+    <div class="des" style="color: rgb(245, 245, 220);">
         <h2>The Story : Raya The last dragon </h2>
         <h3>In Raya and the Last Dragon, the story is set in the fantasy world of Kumandra, where humans and dragons once lived in harmony. However, a sinister force known as the Druun, which turns living beings into stone, threatened the land. The dragons sacrificed themselves to save humanity, leaving behind a magical gem that kept the Druun at bay. Over time, the people of Kumandra became divided into five factions: Heart, Fang, Spine, Talon, and Tail.
 
