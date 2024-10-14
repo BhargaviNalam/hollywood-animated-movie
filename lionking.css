@@ -1,0 +1,136 @@
+.a{
+    /* background-color: #837e7e; */
+}
+.a h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(221, 184, 105);
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
+nav{
+    background-color: #837e7e;
+    box-sizing: border-box;
+    border: 2px solid rgb(245, 245, 220);
+    display: flex;
+    justify-content: space-between;
+}
+.nav .pic img{
+    width: 100px;
+    height: 100px;
+}
+.a nav .h1{
+    margin: 15px 2px;
+}
+.shade{
+    border: 2px solid black;
+    background-image: url("lionking\ banner.jpeg");
+    background-size: cover;
+    background-position: center center;
+    width: 99%;
+    background-repeat: no-repeat;
+    height: 700px;
+    margin: 10px 10px 10px 10px;
+}
+.shade .img{
+    margin: 30px 50px 0px 750px;
+}
+.a .c img{
+    width: 300px;
+    height: 280px;
+
+}
+.a .b img{
+    width: 300px;
+    height: 280px;
+
+}
+.a .d img{
+    width: 300px;
+    height: 280px;
+
+}
+.a .e img{
+    width: 300px;
+    height: 280px;
+
+}
+.a .main{
+border: 2px solid black;
+}
+.a .main h2{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+padding: 0px 10px;
+}
+.a .main .e{
+    border: 1px solid black;
+    margin: 0px 10px 10px 10px;
+}
+.a .main .div1 .e img{
+    padding: 0px 10px;
+}
+.a .main .div1 h3{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+.a .main .div1 h5{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;    
+    padding: 0px 10px;
+    font-weight: lighter;
+}
+.a .div1{
+display: flex;
+overflow-y: hidden;
+overflow-x: scroll; 
+margin-left: 0.8%;
+}
+.div1::-webkit-scrollbar{
+display: none;
+}
+.a .div1 img{
+margin: 10px 5px 0px 0% ;
+width: 250px;
+height: 200px;
+}
+.des{
+background-color: #837e7e;
+border: 2px solid rgb(245, 245, 220);
+
+margin: 10px 0px;
+padding: 0px 10px;
+}
+.des h3{
+font-family: Arial;
+font-size: 15px;
+font-weight: 200;
+line-height: 1.5;
+}
+.pic{
+    padding: 10px 10px;
+}
+.pic img{
+width: 180px;
+}
+.nav{
+display: flex;
+}
+.nav h1{
+padding: 23px 0px 0px 0px;
+}
+.ban{
+    border: 2px solid black;
+    margin: 10px 0px;
+    padding: 0px 10px 10px 10px;
+}
+.ban video{
+    padding: 0px 10px;
+}
+.ban h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    padding: 0px 10px;
+}
